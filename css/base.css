@@ -1,0 +1,58 @@
+/* 初始化样式 */
+
+/* 清除内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 斜体不倾斜 */
+em,i {
+    font-style: normal;
+}
+/* 去除li的圆点 */
+li {
+    list-style: none;
+}
+/* 解决图片底部有缝隙问题 */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+/* 鼠标经过改为小手 */
+button {
+    cursor: pointer;
+}
+/* 清除a标签下划线 */
+a {
+    color: #666666;
+    text-decoration: none;
+}
+a:hover {
+    color: #b1191a;
+}
+
+/* "\5B8B\4F53"为宋体的Unicode码，防止CSS乱码 */
+button,input {
+    font-family: Microsoft Yahei "\5B8B\4F53";
+    outline: none;
+    border: 0;
+}
+
+/* 抗锯齿 */
+body {
+    -webkit-font-smoothing:antialiased;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+
+
