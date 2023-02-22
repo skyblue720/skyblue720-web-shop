@@ -364,3 +364,7 @@
 .border_bottom {
     border-bottom: 1px solid #e4e4e4;
 }
+
+.brand {
+    margin-top: 15px;
+}
